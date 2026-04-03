@@ -1,0 +1,26 @@
+{
+  "name": "v2-lego-design-system",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "storybook": "turbo run storybook",
+    "build-storybook": "turbo run build-storybook",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "tokens:build": "turbo run build --filter=@lego/tokens"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0",
+    "prettier": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

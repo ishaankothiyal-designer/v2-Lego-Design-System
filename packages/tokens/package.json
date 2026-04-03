@@ -1,0 +1,22 @@
+{
+  "name": "@lego/tokens",
+  "version": "1.0.0",
+  "description": "v2 Lego Design System — Design tokens for web and React Native",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./css": "./dist/tokens.css",
+    "./native": "./dist/tokens.native.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node --watch scripts/build.mjs"
+  },
+  "devDependencies": {}
+}

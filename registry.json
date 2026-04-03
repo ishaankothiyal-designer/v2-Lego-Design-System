@@ -1,0 +1,286 @@
+{
+  "_meta": {
+    "figmaFileKey": "AZgWt0KHVuVeWBAcQ6Jcy4",
+    "figmaBranchKey": "yxI5H0FhaUg0YR0uhNuqR6",
+    "figmaFileUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6",
+    "lastScanned": "2026-03-31",
+    "totalComponents": 34
+  },
+  "components": {
+    "Accordion": {
+      "figmaPageId": "7178:53440",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=7178-53440",
+      "code": "packages/ui/src/components/Accordion/Accordion.tsx",
+      "story": "packages/ui/src/components/Accordion/Accordion.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "ActionBar": {
+      "figmaPageId": "14353:31213",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=14353-31213",
+      "code": "packages/ui/src/components/ActionBar/ActionBar.tsx",
+      "story": "packages/ui/src/components/ActionBar/ActionBar.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"],
+      "tags": ["new"]
+    },
+    "Alert": {
+      "figmaPageId": "8073:12125",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=8073-12125",
+      "code": "packages/ui/src/components/Alert/Alert.tsx",
+      "story": "packages/ui/src/components/Alert/Alert.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "AppHeader": {
+      "figmaPageId": "8431:51520",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=8431-51520",
+      "code": "packages/ui/src/components/AppHeader/AppHeader.tsx",
+      "story": "packages/ui/src/components/AppHeader/AppHeader.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Badge": {
+      "figmaPageId": "6881:37011",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6881-37011",
+      "code": "packages/ui/src/components/Badge/Badge.tsx",
+      "story": "packages/ui/src/components/Badge/Badge.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "BrandLogo": {
+      "figmaPageId": "12125:23339",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=12125-23339",
+      "code": "packages/ui/src/components/BrandLogo/BrandLogo.tsx",
+      "story": "packages/ui/src/components/BrandLogo/BrandLogo.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "BottomNav": {
+      "figmaPageId": "6887:40111",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6887-40111",
+      "code": "packages/ui/src/components/BottomNav/BottomNav.tsx",
+      "story": "packages/ui/src/components/BottomNav/BottomNav.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "BottomSheet": {
+      "figmaPageId": "2301:28451",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=2301-28451",
+      "code": "packages/ui/src/components/BottomSheet/BottomSheet.tsx",
+      "story": "packages/ui/src/components/BottomSheet/BottomSheet.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"],
+      "variants": {
+        "sheetType": ["Content", "Media"],
+        "overlay": [true, false],
+        "scrollable": ["scrollable+expandable", "scrollable", "non-scrollable"],
+        "cta": ["2-distributed", "2-stacked", "1-cta"]
+      }
+    },
+    "Breadcrumb": {
+      "figmaPageId": "7967:17955",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=7967-17955",
+      "code": "packages/ui/src/components/Breadcrumb/Breadcrumb.tsx",
+      "story": "packages/ui/src/components/Breadcrumb/Breadcrumb.stories.tsx",
+      "status": "planned",
+      "platforms": ["web"]
+    },
+    "Button": {
+      "figmaPageId": "6881:34910",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6881-34910",
+      "code": "packages/ui/src/components/Button/Button.tsx",
+      "story": "packages/ui/src/components/Button/Button.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "ContextualCard": {
+      "figmaPageId": "14079:1057",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=14079-1057",
+      "code": "packages/ui/src/components/ContextualCard/ContextualCard.tsx",
+      "story": "packages/ui/src/components/ContextualCard/ContextualCard.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "ChoiceChip": {
+      "figmaPageId": "7178:53608",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=7178-53608",
+      "code": "packages/ui/src/components/ChoiceChip/ChoiceChip.tsx",
+      "story": "packages/ui/src/components/ChoiceChip/ChoiceChip.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "ComparisonSection": {
+      "figmaPageId": "14088:875",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=14088-875",
+      "code": "packages/ui/src/components/ComparisonSection/ComparisonSection.tsx",
+      "story": "packages/ui/src/components/ComparisonSection/ComparisonSection.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"],
+      "tags": ["new"]
+    },
+    "DatePicker": {
+      "figmaPageId": "1941:34355",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=1941-34355",
+      "code": "packages/ui/src/components/DatePicker/DatePicker.tsx",
+      "story": "packages/ui/src/components/DatePicker/DatePicker.stories.tsx",
+      "status": "in-progress",
+      "platforms": ["web", "native"]
+    },
+    "Divider": {
+      "figmaPageId": "6887:44807",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6887-44807",
+      "code": "packages/ui/src/components/Divider/Divider.tsx",
+      "story": "packages/ui/src/components/Divider/Divider.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Form": {
+      "figmaPageId": "14859:10412",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=14859-10412",
+      "code": "packages/ui/src/components/Form/Form.tsx",
+      "story": "packages/ui/src/components/Form/Form.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "LazyLoader": {
+      "figmaPageId": "10395:23600",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=10395-23600",
+      "code": "packages/ui/src/components/LazyLoader/LazyLoader.tsx",
+      "story": "packages/ui/src/components/LazyLoader/LazyLoader.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Modules": {
+      "figmaPageId": "14911:4986",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=14911-4986",
+      "code": "packages/ui/src/components/Modules/Modules.tsx",
+      "story": "packages/ui/src/components/Modules/Modules.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"],
+      "tags": ["new"]
+    },
+    "NotificationBadge": {
+      "figmaPageId": "18146:6974",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=18146-6974",
+      "code": "packages/ui/src/components/NotificationBadge/NotificationBadge.tsx",
+      "story": "packages/ui/src/components/NotificationBadge/NotificationBadge.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"],
+      "tags": ["new"]
+    },
+    "NavigationArrow": {
+      "figmaPageId": "12495:16856",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=12495-16856",
+      "code": "packages/ui/src/components/NavigationArrow/NavigationArrow.tsx",
+      "story": "packages/ui/src/components/NavigationArrow/NavigationArrow.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"],
+      "tags": ["new"]
+    },
+    "PageControl": {
+      "figmaPageId": "8449:52029",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=8449-52029",
+      "code": "packages/ui/src/components/PageControl/PageControl.tsx",
+      "story": "packages/ui/src/components/PageControl/PageControl.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "ProgressStepper": {
+      "figmaPageId": "2578:76171",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=2578-76171",
+      "code": "packages/ui/src/components/ProgressStepper/ProgressStepper.tsx",
+      "story": "packages/ui/src/components/ProgressStepper/ProgressStepper.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Ratings": {
+      "figmaPageId": "6887:40171",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6887-40171",
+      "code": "packages/ui/src/components/Ratings/Ratings.tsx",
+      "story": "packages/ui/src/components/Ratings/Ratings.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Snackbar": {
+      "figmaPageId": "7178:53108",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=7178-53108",
+      "code": "packages/ui/src/components/Snackbar/Snackbar.tsx",
+      "story": "packages/ui/src/components/Snackbar/Snackbar.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "SegmentControl": {
+      "figmaPageId": "7967:16246",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=7967-16246",
+      "code": "packages/ui/src/components/SegmentControl/SegmentControl.tsx",
+      "story": "packages/ui/src/components/SegmentControl/SegmentControl.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "SectionHeader": {
+      "figmaPageId": "17055:8606",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=17055-8606",
+      "code": "packages/ui/src/components/SectionHeader/SectionHeader.tsx",
+      "story": "packages/ui/src/components/SectionHeader/SectionHeader.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "ProgressBars": {
+      "figmaPageId": "8499:337",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=8499-337",
+      "code": "packages/ui/src/components/ProgressBars/ProgressBars.tsx",
+      "story": "packages/ui/src/components/ProgressBars/ProgressBars.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "TimelineStepper": {
+      "figmaPageId": "18290:5340",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=18290-5340",
+      "code": "packages/ui/src/components/TimelineStepper/TimelineStepper.tsx",
+      "story": "packages/ui/src/components/TimelineStepper/TimelineStepper.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "SliderBar": {
+      "figmaPageId": "9435:23878",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=9435-23878",
+      "code": "packages/ui/src/components/SliderBar/SliderBar.tsx",
+      "story": "packages/ui/src/components/SliderBar/SliderBar.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Tabs": {
+      "figmaPageId": "6881:35258",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6881-35258",
+      "code": "packages/ui/src/components/Tabs/Tabs.tsx",
+      "story": "packages/ui/src/components/Tabs/Tabs.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Tag": {
+      "figmaPageId": "428:11190",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=428-11190",
+      "code": "packages/ui/src/components/Tag/Tag.tsx",
+      "story": "packages/ui/src/components/Tag/Tag.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    },
+    "Tooltip": {
+      "figmaPageId": "6887:44901",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=6887-44901",
+      "code": "packages/ui/src/components/Tooltip/Tooltip.tsx",
+      "story": "packages/ui/src/components/Tooltip/Tooltip.stories.tsx",
+      "status": "planned",
+      "platforms": ["web"]
+    },
+    "List": {
+      "figmaPageId": "14450:83002",
+      "figmaUrl": "https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6?node-id=14450-83002",
+      "code": "packages/ui/src/components/List/List.tsx",
+      "story": "packages/ui/src/components/List/List.stories.tsx",
+      "status": "planned",
+      "platforms": ["web", "native"]
+    }
+  }
+}

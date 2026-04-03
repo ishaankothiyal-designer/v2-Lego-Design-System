@@ -1,0 +1,37 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="v2 Lego Design System / Introduction" />
+
+# v2 Lego Design System
+
+Welcome to the **v2 Lego Design System** — the single source of truth for all UI components and design tokens across web and React Native.
+
+## Structure
+
+| Package | Purpose |
+|---|---|
+| `@lego/tokens` | Design tokens (colors, spacing, typography, radii) — sourced from Figma |
+| `@lego/ui` | React web components |
+| `@lego/ui-native` | React Native components |
+
+## Figma Source
+
+All components are linked to their Figma source via `registry.json`.
+The Figma file is the design source of truth — tokens flow from Figma → Style Dictionary → code.
+
+[Open Figma File →](https://www.figma.com/design/AZgWt0KHVuVeWBAcQ6Jcy4/branch/yxI5H0FhaUg0YR0uhNuqR6)
+
+## Component Status
+
+- 💎 **Stable** — Codified and ready to use
+- 🟠 **In Progress** — Being designed or built
+- ⬜ **Planned** — On the roadmap
+
+## How to add a new component
+
+1. Designer completes the component in Figma with all variants and token references
+2. Share the Figma node URL with Claude
+3. Claude reads the design via Figma MCP and plans the component API
+4. Claude Code scaffolds the component, story, and tests
+5. PR is opened — Storybook preview auto-deploys for review
+6. Designer reviews in browser, feedback addressed, PR merged
